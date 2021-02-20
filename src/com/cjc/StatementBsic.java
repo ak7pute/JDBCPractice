@@ -13,7 +13,7 @@ public class StatementBsic
 	    
 	    Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/test","root","root");
 
-	    
+	    System.out.println("Alli re ba........");
 	   String sql = "Insert into student values(1,'aks','dis')";
 	    
 	   //String sql = "Create table student (id int(40),name char(50), address char(50))";
